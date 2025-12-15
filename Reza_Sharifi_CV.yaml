@@ -1,0 +1,101 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+
+cv:
+  name: Reza Sharifi
+  headline: Senior Android Developer / Technical Lead
+  location: Mashhad, Iran
+  email: rezasharify1993.rsmi@gmail.com
+  phone: "+989365090061"
+
+  social_networks:
+    - network: LinkedIn
+      username: reza-sharifi-206746157
+    - network: GitHub
+      username: rezasharifiy
+
+  sections:
+    summary:
+      - Android Developer with 8+ years of professional experience in Android development.
+      - Promoted to **Senior Android Developer in 2021** after leading architecture and feature development.
+      - Acting as **Technical Lead since 2023**, leading Android architecture and mentoring the team.
+      - Strong expertise in Jetpack Compose, Clean Architecture, MVI/MVVM, and real-time systems.
+
+    experience:
+      - company: DOTIN
+        position: Senior Android Developer / Technical Lead
+        start_date: 2023-01
+        end_date: present
+        location: Mashhad, Iran
+        highlights:
+          - "Reduced production bugs by approximately **70%**, significantly improving application stability."
+          - "Re-designed and correctly implemented **MVI architecture** for complex UI state management."
+          - "Optimized **Jetpack Compose** performance with focus on recomposition efficiency."
+          - "Integrated **WebRTC** for group video calls."
+          - "Leading Android architecture and mentoring a team of **3 Android developers**."
+
+      - company: DOTIN
+        position: Senior Android Developer
+        start_date: 2021-01
+        end_date: 2023-01
+        location: Mashhad, Iran
+        highlights:
+          - "**Podima (Greenfield Social App):** Built from scratch as the **sole Android developer**."
+          - "Designed architecture using **Clean Architecture + MVI**."
+          - "Implemented UI fully with **Jetpack Compose**."
+          - "Developed and evolved **Chat SDK** foundations focusing on developer experience."
+
+      - company: DOTIN
+        position: Android Developer
+        start_date: 2019-01
+        end_date: 2021-01
+        location: Mashhad, Iran
+        highlights:
+          - "**Podspace (Cloud Storage):** Migrated architecture toward **MVVM**."
+          - "Transitioned major parts of the codebase to **Kotlin**."
+          - "Implemented **offline folders** and background synchronization."
+          - "Owned **Google Play Store** publishing and release management."
+
+      - company: Mojeh Hamrah (Badesaba)
+        position: Android Developer
+        start_date: 2017-11
+        end_date: 2019-11
+        location: Mashhad, Iran
+        highlights:
+          - "Introduced **MVVM architecture** to the Android codebase for the first time."
+          - "Worked on applications such as Badesaba, Quran, and Mafatih."
+
+      - company: Freelance
+        position: Android Developer
+        start_date: 2016-05
+        end_date: 2017-11
+        location: Mashhad, Iran
+        highlights:
+          - "Built Android applications from scratch for startups and educational institutions."
+          - "Owned the full development lifecycle from architecture to delivery."
+
+    skills:
+      - label: Languages
+        details: Kotlin, Java
+      - label: Android
+        details: Android SDK, Jetpack Compose, Navigation, Room
+      - label: Architecture
+        details: Clean Architecture, MVVM, MVI
+      - label: Realtime
+        details: WebSocket, WebRTC
+      - label: Security
+        details: SQLCipher, Secure Preferences
+      - label: DI
+        details: Hilt, Dagger, Koin
+      - label: Async
+        details: Coroutines, Flow
+
+    education:
+      - institution: Khavaran Institute of Higher Education
+        area: Computer Software Engineering
+        degree: BSc
+        start_date: 2012-09
+        end_date: 2016-05
+        location: Mashhad, Iran
+
+design:
+  theme: engineeringresumes
